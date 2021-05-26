@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "cell-and-xml": {
+    "my-cell-entity": {
       "root": "",
       "sourceRoot": "src/main/webapp",
       "projectType": "application",
@@ -66,12 +66,12 @@
         "serve": {
           "builder": "@angular-builders/custom-webpack:dev-server",
           "options": {
-            "browserTarget": "cell-and-xml:build",
+            "browserTarget": "my-cell-entity:build",
             "proxyConfig": "./webpack/proxy.conf.js"
           },
           "configurations": {
             "production": {
-              "browserTarget": "cell-and-xml:build:production"
+              "browserTarget": "my-cell-entity:build:production"
             }
           }
         },
@@ -93,7 +93,7 @@
       "prefix": "jhi"
     }
   },
-  "defaultProject": "cell-and-xml",
+  "defaultProject": "my-cell-entity",
   "cli": {
     "packageManager": "npm"
   }
